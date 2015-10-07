@@ -1,0 +1,15 @@
+<div class="row">
+    <div ng-repeat="p in pieces" class="col-sm-6 col-md-3">
+        <div class="mini-charts-item bgm-cyan">
+            <div class="clearfix">
+                <div class="chart">
+                    {{p.name}}
+                </div>
+                <div class="count">
+                    <small>hum : {{p.hum}}%</small>
+                    <h2>T : {{p.temp}}°</h2>
+                </div>
+            </div>
+        </div>                  
+    </div>
+</div>
